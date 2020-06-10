@@ -1,5 +1,19 @@
---- dwm.c	2019-12-10 17:24:37.945708263 +1300
-+++ dwm.c	2019-12-10 17:41:46.192676099 +1300
+Common subdirectories: dwm/.git and dwm-new/.git
+diff -up dwm/config.def.h dwm-new/config.def.h
+--- dwm/config.def.h	2019-12-10 17:24:37.944708263 +1300
++++ dwm-new/config.def.h	2019-12-10 17:44:38.447670711 +1300
+@@ -5,6 +5,8 @@ static const unsigned int borderpx  = 1;
+ static const unsigned int snap      = 32;       /* snap pixel */
+ static const int showbar            = 1;        /* 0 means no bar */
+ static const int topbar             = 1;        /* 0 means bottom bar */
++static const int vertpad            = 10;       /* vertical padding of bar */
++static const int sidepad            = 10;       /* horizontal padding of bar */
+ static const char *fonts[]          = { "monospace:size=10" };
+ static const char dmenufont[]       = "monospace:size=10";
+ static const char col_gray1[]       = "#222222";
+diff -up dwm/dwm.c dwm-new/dwm.c
+--- dwm/dwm.c	2019-12-10 17:24:37.945708263 +1300
++++ dwm-new/dwm.c	2019-12-10 17:41:46.192676099 +1300
 @@ -241,6 +241,8 @@ static int screen;
  static int sw, sh;           /* X display screen geometry width, height */
  static int bh, blw = 0;      /* bar geometry */
