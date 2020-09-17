@@ -1,0 +1,7 @@
+#!/bin/sh
+# This file is to be located in /usr/local/bin/
+
+~/.config/dwm/dwm-bar-rc.py &
+
+exec dwm
+

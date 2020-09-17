@@ -1,4 +1,5 @@
 #!/usr/bin/python3
+# This file should be located in /home/<user>/.config/dwm/
 
 import psutil
 import time
