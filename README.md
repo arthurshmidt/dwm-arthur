@@ -29,3 +29,19 @@ My implementation of dwm
 * pip3 psutils - startup script for bar settings
 * urxvt - terminal
 * .Xresources - Color scheme & urxvt terminal settings
+
+## Key Bindings
+### Basic
+mod + space         - launch rofi
+mod + enter         - launch terminal
+mod + b             - show / hide bar
+mod + [j / k]       - focus on next / previous window in current tag.
+mod = [h / l]       - increase / decrease master size.
+
+### Navigation
+
+
+### Layout
+mod + t             - tiled mode []=
+mod + f             - floating mode. ><>
+mod + m             - monocle mode. [M] (single window fullscreen)
