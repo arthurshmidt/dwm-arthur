@@ -39,6 +39,13 @@ mod + [j / k]       - focus on next / previous window in current tag.
 mod = [h / l]       - increase / decrease master size.
 
 ### Navigation
+mod + 0             - view all windows on screen.
+mod + <number>      - move focus to tag <number>
+shift + mod + <num> - move active window to tag <num>
+
+shift + mod + 0     - make focused window apear on all tags
+shift + mod + c     - kill active window.
+shift + mod + q     - quit dwm clearly.
 
 
 ### Layout
