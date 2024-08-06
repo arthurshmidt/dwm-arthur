@@ -1,0 +1,50 @@
+Core
+1. sudo
+2. network-manager
+3. xdg-users-dirs-update
+4. git
+5. vim
+6. tmux
+7. build-essential
+7. python3
+9. pipx
+10. tldr
+11. jrnl
+12. unzip
+
+Window Manager
+13. xorg
+14. dwm			# installed from source
+	a. libx11-dev
+	b. libxft-dev
+	c. libxinerama-dev
+15. rofi
+16. feh
+17. ly			# installed from source
+	a. libpam0g-dev
+	b. libxcb-xkb-dev
+
+Other
+18. neofetch
+19. lynx
+20. blueman		# blueman-applet & blueman-manager
+21. opera web browser.  # opera-beta
+22. weechat		# IRC chat client, python scripts
+23. alsa-utils		# includes alsamixer for sound
+24. cmatrix		# terminal matrix display
+25. tree		# tree list of file and Dir contents
+26. curl
+27. ncal		# cal command for calendar
+28. slack		# Installed via website
+29. htop
+30. nvim		# website binanry for newer version
+	a. lazy.vim
+31. flameshot   	# screen capture tool
+32. zathura		# PDF viewer
+33. btop		# a cooler looking top
+34. librecad		# 2d cad software
+34. nnn			# command line file manager
+35. fzf			# fuzzy finder
+36. postgresql  	# database software
+37. alacritty		# alternative terminal emulator
+
