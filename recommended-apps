@@ -13,14 +13,15 @@ Core
 12. unzip
 
 Window Manager
-13. xorg
-14. dwm			# installed from source
+1. xorg
+2. dwm			# installed from source
 	a. libx11-dev
 	b. libxft-dev
 	c. libxinerama-dev
-15. rofi
-16. feh
-17. ly			# installed from source
+3. rxvt-unicode
+4. rofi
+5. feh
+6. ly			# installed from source
 	a. libpam0g-dev
 	b. libxcb-xkb-dev
 
