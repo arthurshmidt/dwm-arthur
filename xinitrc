@@ -1,6 +1,6 @@
 #!/bin/sh
 
-~/Dev/dwm-arthur/dwm-6.4/scripts/bar-update.py &
+~/Src/dwm-arthur/dwm-6.4/scripts/bar-update.py &
 xrdb ~/.Xresources &
 feh --bg-fill ~/Src/dwm-arthur/minimal-pacman-wallpaper.jpg &
 
